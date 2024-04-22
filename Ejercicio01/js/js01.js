@@ -1,5 +1,4 @@
-function contrasenaValida(){
-    let contrasena = prompt("Ingrese una Contraseña Valida");
+function contrasenaValida(contrasena = prompt("Ingrese una contraseña")){
     if ((contrasena === "2Fj(jjbFsuj") || (contrasena === "eoZiugBf&g9")){
         return true
     }else{
